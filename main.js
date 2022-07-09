@@ -2,6 +2,7 @@ window.onload = function() {
 
     var seconds = 00;
     var tens = 00;
+    var minutes = 00;
     var appendTens = document.getElementById("tens")
     var appendSeconds = document.getElementById("seconds")
     var appendMinutes = document.getElementById("minutes")
@@ -14,11 +15,11 @@ window.onload = function() {
         clearInterval(Interval);
         Interval = setInterval(startTimer, 10);
     }
-        
+    
     buttonStop.onclick = function () {
         clearInterval(Interval);
     }
-          
+         
     buttonReset.onclick = function () {
         clearInterval(Interval);
         tens = "00"
