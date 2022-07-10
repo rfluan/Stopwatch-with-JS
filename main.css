@@ -76,7 +76,7 @@ p {
 }
 
 .wrapper {
-  max-width: 500px;
+  max-width: 400px;
   margin: 20px auto;
   color:var(--text-color);
   text-align:center;
@@ -97,8 +97,8 @@ font-family: 'Roboto';
 font-weight: 700;
 font-size: 1em;
 padding: 15px;
-width: 140px;
-margin: 10px;
+width: 110px;
+margin: 5px;
 
 transition: 0.5s;
 }
